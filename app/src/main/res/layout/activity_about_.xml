@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/about_back"
+    tools:context=".About_Activity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_strikethrough_s_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_header"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#DCDFE9"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#C1FFC1"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#C1FFC1"
+        android:text="@string/trademark"
+        android:layout_gravity="center_horizontal"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#C1FFC1"
+        android:text="@string/copyright"
+        android:layout_gravity="center_horizontal"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#C1FFC1"
+        android:text="@string/email"
+        android:layout_gravity="center_horizontal"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        />
+</LinearLayout>

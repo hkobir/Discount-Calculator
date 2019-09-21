@@ -1,0 +1,15 @@
+<resources>
+    <string name="titleView">Lets Cutting!</string>
+    <string name="app_name">Discount_Calculator</string>
+    <string name="price_text">Total price of product in (TK.)</string>
+    <string name="percent_text">Rate of percentage on product</string>
+    <string name="calculateText">CALCULATE</string>
+    <string name="viewHeader">Billing(TK.)</string>
+    <string name="splash_header">Discount Calculator</string>
+    <string name="load">Loading...</string>
+    <string name="clearText">CLEAR</string>
+    <string name="version">Version: 3.1.0.0</string>
+    <string name="copyright">Copyright: Hkobir</string>
+    <string name="trademark">Trademark: HK47</string>
+    <string name="email">hkobir10@gmail.com</string>
+</resources>
